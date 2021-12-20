@@ -25,3 +25,130 @@ jobs:
             repo: only-pkg
             package-name: sample-npm-2
             num-old-versions-to-delete: 1
+      - name: Delete package 3
+        uses: actions/delete-package-versions@v2
+        with: 
+            owner: NamrataJha
+            repo: only-pkg
+            package-name: sample-npm-3
+            num-old-versions-to-delete: 1
+      - name: Delete package 4
+        uses: actions/delete-package-versions@v2
+        with: 
+            owner: NamrataJha
+            repo: only-pkg
+            package-name: sample-npm-4
+            num-old-versions-to-delete: 1
+      - name: Delete package 5
+        uses: actions/delete-package-versions@v2
+        with: 
+            owner: NamrataJha
+            repo: only-pkg
+            package-name: sample-npm-5
+            num-old-versions-to-delete: 1
+      - name: Delete package 6
+        uses: actions/delete-package-versions@v2
+        with: 
+            owner: NamrataJha
+            repo: only-pkg
+            package-name: sample-npm-6
+            num-old-versions-to-delete: 1
+      - name: Delete package 7
+        uses: actions/delete-package-versions@v2
+        with: 
+            owner: NamrataJha
+            repo: only-pkg
+            package-name: sample-npm-7
+            num-old-versions-to-delete: 1
+      - name: Delete package 8
+        uses: actions/delete-package-versions@v2
+        with: 
+            owner: NamrataJha
+            repo: only-pkg
+            package-name: sample-npm-8
+            num-old-versions-to-delete: 1
+      - name: Delete package 9
+        uses: actions/delete-package-versions@v2
+        with: 
+            owner: NamrataJha
+            repo: only-pkg
+            package-name: sample-npm-9
+            num-old-versions-to-delete: 1
+      - name: Delete package 10
+        uses: actions/delete-package-versions@v2
+        with: 
+            owner: NamrataJha
+            repo: only-pkg
+            package-name: sample-npm-10
+            num-old-versions-to-delete: 1
+      - name: Delete package 11
+        uses: actions/delete-package-versions@v2
+        with: 
+            owner: NamrataJha
+            repo: only-pkg
+            package-name: sample-npm-11
+            num-old-versions-to-delete: 1
+      - name: Delete package 12
+        uses: actions/delete-package-versions@v2
+        with: 
+            owner: NamrataJha
+            repo: only-pkg
+            package-name: sample-npm-12
+            num-old-versions-to-delete: 1
+      - name: Delete package 13
+        uses: actions/delete-package-versions@v2
+        with: 
+            owner: NamrataJha
+            repo: only-pkg
+            package-name: sample-npm-13
+            num-old-versions-to-delete: 1
+      - name: Delete package 14
+        uses: actions/delete-package-versions@v2
+        with: 
+            owner: NamrataJha
+            repo: only-pkg
+            package-name: sample-npm-14
+            num-old-versions-to-delete: 1
+      - name: Delete package 15
+        uses: actions/delete-package-versions@v2
+        with: 
+            owner: NamrataJha
+            repo: only-pkg
+            package-name: sample-npm-15
+            num-old-versions-to-delete: 1
+      - name: Delete package 16
+        uses: actions/delete-package-versions@v2
+        with: 
+            owner: NamrataJha
+            repo: only-pkg
+            package-name: sample-npm-16
+            num-old-versions-to-delete: 1
+      - name: Delete package 17
+        uses: actions/delete-package-versions@v2
+        with: 
+            owner: NamrataJha
+            repo: only-pkg
+            package-name: sample-npm-17
+            num-old-versions-to-delete: 1
+      - name: Delete package 18
+        uses: actions/delete-package-versions@v2
+        with: 
+            owner: NamrataJha
+            repo: only-pkg
+            package-name: sample-npm-18
+            num-old-versions-to-delete: 1
+      - name: Delete package 19
+        uses: actions/delete-package-versions@v2
+        with: 
+            owner: NamrataJha
+            repo: only-pkg
+            package-name: sample-npm-19
+            num-old-versions-to-delete: 1
+      - name: Delete package 20
+        uses: actions/delete-package-versions@v2
+        with: 
+            owner: NamrataJha
+            repo: only-pkg
+            package-name: sample-npm-20
+            num-old-versions-to-delete: 1
+          
