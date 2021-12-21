@@ -11,13 +11,14 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Delete package 1
+      - name: Delete samplepackage
         uses: actions/delete-package-versions@v2
         with: 
             owner: NamrataJha
-            repo: only-pkg
-            package-name: sample-npm-1
-            num-old-versions-to-delete: 1
+            repo: samplepackage
+            package-name: samplepackage
+            min-versions-to-keep: 20
+            token: ${{  secrets.PAT }}
       - name: Delete package 2
         uses: actions/delete-package-versions@v2
         with: 
