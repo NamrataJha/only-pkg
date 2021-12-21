@@ -13,7 +13,7 @@ jobs:
             owner: NamrataJha
             repo: only-pkg
             package-name: only-pkg
-            min-versions-to-keep: 50
+            num-old-versions-to-delete: 150
 
  
 
