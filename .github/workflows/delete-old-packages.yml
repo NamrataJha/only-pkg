@@ -17,7 +17,23 @@ jobs:
             owner: NamrataJha
             repo: samplepackage
             package-name: samplepackage
-            min-versions-to-keep: 20
+            num-old-versions-to-delete: 20
+            token: ${{  secrets.PAT }}
+      - name: Delete only-pkg
+        uses: actions/delete-package-versions@v2
+        with: 
+            owner: NamrataJha
+            repo: only-pkg
+            package-name: only-pkg
+            min-versions-to-keep: 50
+            token: ${{  secrets.PAT }}
+      - name: Delete debug-action
+        uses: actions/delete-package-versions@v2
+        with: 
+            owner: NamrataJha
+            repo: debug-action
+            package-name: debug-action
+            min-versions-to-keep: 50
             token: ${{  secrets.PAT }}
       - name: Delete package 2
         uses: actions/delete-package-versions@v2
@@ -152,4 +168,12 @@ jobs:
             repo: only-pkg
             package-name: sample-npm-20
             num-old-versions-to-delete: 1
+      - name: Delete test-repo
+        uses: actions/delete-package-versions@v2
+        with: 
+            owner: NamrataJha
+            repo: test-repo
+            package-name: test-repo
+            min-versions-to-keep: 50
+            token: ${{  secrets.PAT }}
           
