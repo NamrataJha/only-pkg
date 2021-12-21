@@ -1,0 +1,23 @@
+name: delete-old-packages
+on:
+  registry_package:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  delete-old-packages:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Delete package
+        uses: actions/delete-package-versions@75db2288ca6f67e64b893999b62890b0c5f5dc8c
+        with: 
+            owner: NamrataJha
+            repo: only-pkg
+            package-name: only-pkg
+            min-versions-to-keep: 50
+
+ 
+
+
+          
