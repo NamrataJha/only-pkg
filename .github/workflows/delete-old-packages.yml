@@ -8,12 +8,12 @@ jobs:
     
     steps:
       - name: Delete package
-        uses: actions/delete-package-versions@508f6970a5f85097117972847749c79e0a276b26
+        uses: actions/delete-package-versions@324039ba0a2f9b3e6099a2d32812699a8f72a51d
         with: 
             owner: NamrataJha
             repo: only-pkg
             package-name: only-pkg
-            num-old-versions-to-delete: 130
+            num-old-versions-to-delete: 10
 
  
 
