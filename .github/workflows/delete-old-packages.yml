@@ -14,6 +14,7 @@ jobs:
             repo: only-pkg
             package-name: only-pkg
             num-old-versions-to-delete: 150
+            ignore-versions: '^(0|[1-9]\\d*)\\.0\\.0$'
 
  
 
