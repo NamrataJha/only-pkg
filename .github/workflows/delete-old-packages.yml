@@ -13,7 +13,43 @@ jobs:
             owner: NamrataJha
             repo: only-pkg
             package-name: only-pkg
-            num-old-versions-to-delete: 220
+            min-versions-to-keep: 50
+      - name: Delete package
+        uses: actions/delete-package-versions@8283350471d9e648bf28ae366f80671aa50d528e
+        with: 
+            owner: NamrataJha
+            repo: only-pkg
+            package-name: only-pkg
+            min-versions-to-keep: 50
+      - name: Delete package
+        uses: actions/delete-package-versions@8283350471d9e648bf28ae366f80671aa50d528e
+        with: 
+            owner: NamrataJha
+            repo: only-pkg
+            package-name: only-pkg
+            min-versions-to-keep: 50
+      - name: Delete package
+        uses: actions/delete-package-versions@8283350471d9e648bf28ae366f80671aa50d528e
+        with: 
+            owner: NamrataJha
+            repo: only-pkg
+            package-name: only-pkg
+            min-versions-to-keep: 50
+      - name: Delete package
+        uses: actions/delete-package-versions@8283350471d9e648bf28ae366f80671aa50d528e
+        with: 
+            owner: NamrataJha
+            repo: only-pkg
+            package-name: only-pkg
+            min-versions-to-keep: 50
+      - name: Delete package
+        uses: actions/delete-package-versions@8283350471d9e648bf28ae366f80671aa50d528e
+        with: 
+            owner: NamrataJha
+            repo: only-pkg
+            package-name: only-pkg
+            min-versions-to-keep: 50
+      
 
  
 
